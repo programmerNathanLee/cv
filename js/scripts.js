@@ -11,10 +11,10 @@ function renderTime(){
   var daym = mydate.getDate();
   var dayarray = new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
   var montharray = new Array("January","February","March","April","May","June","July","August","September","October","November","December");
-  // Date renderTime
+  // Date End
 
   // Time
-  var currentTime = new Date90:
+  var currentTime = new Date();
   var h = currentTime.getHours();
   var m = currentTime.getMinutes();
   var s = currentTime.getSeconds();
